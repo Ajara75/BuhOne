@@ -1,0 +1,32 @@
+.header {
+    background: #E5E5E5;
+    height: 110px;
+}
+.header__logo {
+    font-family: 'Merriweather';
+font-style: normal;
+font-weight: 900;
+font-size: 37px;
+line-height: 50px;
+padding-left: 30px;
+color: #005FA3;
+}
+.nav__menu {
+    font-family: 'Montserrat';
+font-style: normal;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #222222;
+    padding-left: 782px;
+    margin-top: -33px;
+}
+.nav__link {
+    padding-left: 68px;
+}
+.img__logo {
+    margin-left: 405px;
+    margin-top: 30px;
+}
