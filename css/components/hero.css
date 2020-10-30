@@ -28,21 +28,16 @@ color: #FFFFFF;
     height: 41px;
     left: 405px;
     top: 451px;
-
-background: #005FA3;
-
+    background: #005FA3;
 }
 .slider {
 width: 60px;
 height: 60px;
 background: #96939379;
 opacity: 0.6;
-
 }
 .button__box {
     position: absolute;
-    /* right: 0;
-    bottom: 0; */
     left: 1395px;
 top: 607px;
 }
