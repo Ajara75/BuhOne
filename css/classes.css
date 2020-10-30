@@ -4,8 +4,20 @@
   }
   .col-6 {
     width: 100%;
+    padding-left: 375px;
+    padding-top: 30px;
+  }
+  .col-4 {
+    width: 100%;
+    padding-left: 375px;
   }
   .row {
     display: flex;
     flex-wrap: wrap;
   }
+  .flex {
+    display: flex;
+  } 
+  .text-center {
+    text-align: center;
+}

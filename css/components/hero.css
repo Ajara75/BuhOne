@@ -1,26 +1,29 @@
 .hero__content {
+    width: 1920px;
     height: 670px;
     background: url('../../images/rectangle.png') center no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
 }
 .hero__title {
     font-family: 'Merriweather';
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 66px;
-margin-left: 405px;
-color: #FFFFFF;
-padding-top: 140px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    margin-left: 405px;
+    color: #FFFFFF;
+    padding-top: 140px;
 }
 .hero__btn {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-padding-top: 14px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 14px;
+    color: #FFFFFF;
 }
 .btn__accent {
     position: absolute;
@@ -30,23 +33,7 @@ color: #FFFFFF;
     top: 451px;
     background: #005FA3;
 }
-.slider {
-width: 60px;
-height: 60px;
-background: #96939379;
-opacity: 0.6;
-}
-.button__box {
-    position: absolute;
-    left: 1395px;
-top: 607px;
-}
-.to-be-changed {
-        transition: all 0s 9999999s;
-    }
-    span:active ~ .to-be-changed {
-        transition: all 0s;
-        color: red;
-    }
+
+
     
    
