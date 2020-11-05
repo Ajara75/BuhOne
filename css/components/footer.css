@@ -4,9 +4,6 @@
     width: 1920px;
 height: 623px;
 }
-.footer__content {
-    /* padding-top: 750px; */
-}
 .footer__connection {
     margin-left: 407px;
     margin-top: 55px;
@@ -17,26 +14,19 @@ height: 623px;
 }
 .footer__title {
     font-family: 'Merriweather';
-font-style: normal;
-font-weight: 900;
-font-size: 48px;
-line-height: 69px;
-
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #FFFFFF;
 }
 .footer__text {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
-
-/* White */
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
 .footer__number {
     font-family: 'Montserrat';
