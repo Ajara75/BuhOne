@@ -2,7 +2,7 @@
     background: url('../../images/footer.png') center no-repeat;
     margin-top: 650px;
     width: 1920px;
-height: 623px;
+    height: 623px;
 }
 .footer__connection {
     margin-left: 407px;
@@ -30,67 +30,35 @@ height: 623px;
 }
 .footer__number {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 21px;
-line-height: 29px;
-
-
-color: #FFFFFF;
-
+    font-style: normal; 
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px; 
+    color: #FFFFFF;
 }
 .footer__email {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 21px;
-line-height: 29px;
-
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
 .footer__name {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-
-/* White */
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 50px;
+    color: #FFFFFF;
 }
 .footer__surname {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-
-/* White */
-
-color: #FFFFFF;
-}
-.footer__message {
-    /* font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    
-    padding-top: 200px;
-    
-    color: #FFFFFF; */
-/* }
-.messange__bar {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    padding-top: 250px;
-    
-    
-    color: #FFFFFF; */
+    padding-left: 250px;
+    color: #FFFFFF;
 }
