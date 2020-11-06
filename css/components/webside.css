@@ -26,6 +26,15 @@ font-size: 48px;
 line-height: 69px;
 color: #333333;
 }
+.webside__product {
+    position: absolute;
+    padding-top: 0px;
+
+}
+.webside__item {
+    position: relative;
+    margin-left: -990px;
+  }  
 .webside__column {
     margin-left: 375px;
     margin-top: 80px;
@@ -33,3 +42,47 @@ color: #333333;
 .webside__img {
     padding-left: 30px;
 }
+.webside__row {
+    display: flex;
+    min-height: 680px;
+}
+.col-6 {
+    width: 100%;
+  }
+  
+  .slick-initialized .slick-slide {
+    display: flex;
+  }
+  
+  .slick-slide {
+    border: none !important;
+    outline: none !important;
+  }
+  
+  .slick-arrow {
+    display: none !important;
+  }
+  .webside .slick-dots {
+    position: absolute;
+    bottom: -266px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    list-style: none;
+  }
+  
+  .webside .slick-dots button {
+    width: 40px;
+    height: 7px;
+    font-size: 0;
+    background-color: #afafaf;
+    border: none;
+    outline: none;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+  
+  .webside .slick-dots .slick-active button {
+    background-color: #ffffff;
+  }
+  
