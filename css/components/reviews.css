@@ -23,7 +23,7 @@ color: #333333;
 width: 1110px;
 height: 320px;
 left: 405px;
-top: 3600px;
+top: 3510px;
 
 background: #EBEBEB;
 }
@@ -60,3 +60,41 @@ line-height: 19px;
 padding-left: 100px;
 color: #4F4F4F;
 }
+.reviews__row {
+    display: flex;
+    min-height: 680px;
+}
+.col-6 {
+    width: 100%;
+  }
+  .slick-initialized .slick-slide {
+    display: flex;
+  }
+  .slick-slide {
+    border: none !important;
+    outline: none !important;
+  }
+  .slick-arrow {
+    display: none !important;
+  }
+  .reviews .slick-dots {
+    position: absolute;
+    bottom: 184px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    list-style: none;
+  }
+  .reviews .slick-dots button {
+    width: 40px;
+    height: 7px;
+    font-size: 0;
+    background-color: #afafaf;
+    border: none;
+    outline: none;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+  .reviews .slick-dots .slick-active button {
+    background-color: #ffffff;
+  }
